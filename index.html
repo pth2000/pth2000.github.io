@@ -1,121 +1,365 @@
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
+<meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="https://pth2000.github.io/favicon.ico?v=1592625877076">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<title>
+    极光驿站
+</title>
+<link rel="shortcut icon" href="https://pth2000.github.io/favicon.ico?v=1592631614053">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://pth2000.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="https://pth2000.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://pth2000.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+</head>
 
-    <meta name="description" content="温故而知新" />
-  </head>
-  <body>
+<body>
     <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://pth2000.github.io">
-  <img class="avatar" src="https://pth2000.github.io/images/avatar.png?v=1592625877076" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://pth2000.github.io">
+                <img class="avatar" src="https://pth2000.github.io/images/avatar.png?v=1592631614053" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    极光驿站
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
 </div>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://pth2000.github.io/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2018-12-12
-        </span>
-        <span>
-          2 min read
-        </span>
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
         
-          <a href="https://pth2000.github.io/tag/6-9Qf-N1H/" class="post-tag">
-            # Gridea
-          </a>
-        
-      </div>
-      
-        <a href="https://pth2000.github.io/post/hello-gridea/" class="post-feature-image" style="background-image: url('https://pth2000.github.io/post-images/hello-gridea.png')">
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://pth2000.github.io/post/android-shua-ji-jian-dan-tong-yong-jiao-cheng/">
+                        Android刷机 简单通用教程
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2020-06-20</time>
+                    
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            前排提醒：刷机千万条，备份第一条。刷机不规范，亲人两行泪。 
+1.刷机准备
+1.1 概念解析
+
+Fastboot：俗称线刷模式（也称引导模式），即使用USB数据线连接手机的一种刷机模式。通常按电源键+音量下键可以进入，或执行adb reboot bootloader。
+Recovery：俗称REC、卡刷模式，是一种可以对安卓机内部的数据或系统进行修改的模式。通常按电源键+音量上键可以进入，或执行adb reboot recovery。
+Bootloader锁：俗称BL锁。官方为了保护手机数据安全给Bootloader上锁，使得手机只能使用官方系统，无法进行刷机操作。
+Root权限：即超级管理员权限。是Android的最高权限。目前较为流行的root权限管理工具有Magisk Manager、SuperSU和其他一键root类工具。
+
+1.2 数据备份
+数据无价，数据备份永远是刷机中最为重要的一步。以下提供几种数据备份的方式以供参考：
+
+云服务：国产手机通常自带厂商提供的云服务，如华为、小米、一加等，借助这些服务可以很方便地备份联系人、短信、照片等重要数据。
+本地备份：重要的照片等数据建议备份到本地。可以借助一些PC端备份软件如华为手机助手等。
+云盘备份：与云服务类似，如百度网盘、OneDrive等。
+第三方备份：如钛备份等，可备份应用数据。较为复杂，请移步百度，本文不再赘述。
+
+2.刷机流程
+2.1 解除BL锁
+每个厂家的设备解BL锁的方式各不相同。
+以小米为例，首先进入http://www.miui.com/unlock/index.html ,然后登录自己的账号，申请解锁，通过之后下载相应工具，按步骤连接手机进行操作。
+详细操作步骤建议百度，以 设备型号+解BL锁 作为关键词。
+目前，华为已关闭解锁通道，无法解除BL锁。
+2.2 刷入第三方REC
+通常来讲，官方提供的REC功能较为有限，基本无法完成刷机操作。因此，我们需要借助第三方REC来实现刷机功能。（注意：若需要进行OTA升级系统，需要刷回官方REC）
+目前，第三方REC主要以TWRP为主，以下将以TWRP为例进行介绍。
+刷入TWRP主要通过两种方法：
+
+
+
+通过TWRP App刷入
+
+
+
+
+通过Fastboot模式刷入
+
+
+
+本文将着重介绍第二种方法，具体通过app刷入的方法建议百度或进入对应机型论坛查找教程。
+
+
+
+下载ADB环境工具。在 https://developer.android.google.cn/studio/releases/platform-tools 下载相应工具。解压，最好在全英文目录下。
+
+
+
+
+手机进入fastboot模式，数据线连接电脑。
+
+
+
+
+在解压目录下打开cmd窗口。（可以在文件夹地址栏直接输入cmd回车实现）
+
+
+
+
+
+去twrp官网下载对应设备的twrp.img文件（或论坛），并复制该文件的文件路径。
+
+
+
+
+键盘使用快捷键win+R，输入cmd并回车。在cmd窗口中输入fastboot devices，确认设备已连接电脑。
+
+
+
+
+在cmd窗口中输入fastboot flash recovecy (路径)，回车，若未报错，即刷入成功。
+
+
+
+如果怕在复制路径那步出现错误，也可以这样实现：
+
+
+
+将img文件重命名为recovery.img，移动到解压的工具文件夹下。
+
+
+
+
+cmd内输入fastboot flash recovery recovery.img回车，即可刷入成功。
+
+
+
+另外，可以在论坛中下载对应型号的、大神制作好的bat程序实现一键刷入，原理与上面步骤相似，较为方便，不易出错。
+特别的：一加6等AB分区的手机，在这一步仅能获得临时TWRP，应在此TWRP下继续卡刷TWRP，以获得永久TWRP。另外，有时可能会出现刷入后重启无法开机的情况（开机界面无限循环），此时应强制重启回到TWRP，刷入对应版本的官方boot，重启即可进入系统。也可刷入官方包暂时救急。
+2.3 进入TWRP
+将手机重启至Recovery模式，会自动进入TWRP界面。
+初次进入twrp会提示你选择语言，并选择是否保持system分区为只读。
+
+先把语言改为Chinese，然后勾上不再显示，滑动按钮允许修改，进入twrp。
+注意，3.2.3以上的TWRP才支持中文。
+2.3.1 清除数据
+一般情况下是刷机前的必要行为，通常为双清和三清。（注：仅为大家约定俗称的称呼）
+
+双清：（最常用）
+
+
+
+Dalvik/ART Cache
+
+
+
+
+Cache
+
+
+
+三清：
+
+
+
+Dalvik/ART Cache
+
+
+
+
+Cache
+
+
+
+
+Data
+
+
+
+大部分情况下按照twrp推荐的操作即可，但若ROM作者有要求，按其推荐的方式来执行更好。以SuperiorOS为例，作者推荐清除System, Data, Cache, Dalvik四个分区，此时选择高级清除，选择这四个，滑动清除即可。
+2.3.2 格式化data（可选）
+一些系统如MIUI会对data分区进行加密。注意：此操作不同于清除data分区，格式化data会清除手机上全部数据。需要保留数据的可以不清除。点击清除-格式化data分区，输入yes进行格式化。
+格式化data易造成安全问题，且最新twrp已支持自动解密，个人不建议进行此操作。
+2.3.3 刷入ROM卡刷包
+
+1.将卡刷包传入手机。（若未清除SD卡数据，可提前传至手机）
+可以通过数据线连接电脑直接传入，也可通过adb的特殊方式导入，具体请百度。
+2.在TWRP中选择安装，在文件管理器中找到ROM卡刷包，滑动刷入即可。若有其他要刷入的包，可先加入队列，之后一起刷入。
+
+部分第三方ROM可能需要先刷入合适的固件（底包），具体看作者的介绍。
+
+2.3.4 刷入附加组件（可选）
+以下列举一些可选择性刷入的组件：
+
+Magisk：推荐刷入，刷入后即可获得root权限，同时可以体验很多模块。可百度下载，也可安装Magisk Manager后选择直接下载下载至本地。
+Xposed框架：XP框架目前官方支持的只有Android 8.1及以下，不建议刷入。若已经刷入了magisk，推荐使用magisk模块仓库里的xposed，目前仅支持8.1及以下。8.1以上的系统，现在可以通过太极或Edxp等软件获得等效xposed的效果（系统功能依赖Magisk）。
+内核：下载好对应内核后，可直接在twrp刷入。方法同刷入ROM。
+
+2.4 重启手机
+刷完后，选择重启系统，（可能需要较长时间）将进入系统。至此，一次刷机之旅就基本结束了。
+（本文在一定程度上借鉴了酷安作者 落笔成酌，以个人经验进一步总结归纳，望各位悉知）
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://pth2000.github.io/post/android-shua-ji-jian-dan-tong-yong-jiao-cheng/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://pth2000.github.io/post/hello-gridea/">
+                        Hello Gridea
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2018-12-12</time>
+                    
+                        <a href="https://pth2000.github.io/tag/6-9Qf-N1H/" class="post-tag i-tag
+                            i-tag-other_4">
+            #Gridea
         </a>
-      
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://pth2000.github.io/post/hello-gridea/" class="post-feature-image" style="background-image:url(https://pth2000.github.io/post-images/hello-gridea.png) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                    <div class="post-content-abstract">
+                                        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
-      </div>
-    </article>
-  
-</div>
+                                    </div>
+                                    
+                                            <a class="btn btn-text" href="https://pth2000.github.io/post/hello-gridea/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
 
-    
-        <div class="pagination-container">
-  
-  
-</div>
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://pth2000.github.io/images/avatar.png?v=1592631614053)">
+        </div>
+        <h1 class="id_card-title">
+            极光驿站
+        </h1>
+        <h2 class="id_card-description">
+            来自科技与创意的碰撞
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
 
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://pth2000.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
+        </div>
     </div>
-  </body>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
+
+
+
+            <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://pth2000.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
 </html>
