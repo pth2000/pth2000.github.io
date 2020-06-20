@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pth2000.github.io</id>
     <title>极光驿站</title>
-    <updated>2020-06-20T05:40:32.395Z</updated>
+    <updated>2020-06-20T05:49:52.880Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pth2000.github.io"/>
     <link rel="self" href="https://pth2000.github.io/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://pth2000.github.io/post/android-shua-ji-jian-dan-tong-yong-jiao-cheng/">
         </link>
         <updated>2020-06-20T04:40:57.000Z</updated>
+        <summary type="html"><![CDATA[<center>前排提醒：<b>刷机千万条，备份第一条。刷机不规范，亲人两行泪。</b> </center>
+]]></summary>
         <content type="html"><![CDATA[<center>前排提醒：<b>刷机千万条，备份第一条。刷机不规范，亲人两行泪。</b> </center>
+<!-- more -->
 <h1 id="center1刷机准备center"><center>1.刷机准备</center></h1>
 <h2 id="11-概念解析">1.1 概念解析</h2>
 <ul>
